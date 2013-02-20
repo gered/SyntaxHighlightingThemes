@@ -34,7 +34,7 @@
   <Style name="text.background.searchresult" color="#FFE2B9" />
   <Style name="text.background.searchresult-main" color="#F3D647" />
   <Style name="marker.bracket" color="#E5E1DA" bgColor="#80807F" />
-  <Style name="marker.usages" color="#D3D7CF" bgColor="#EEEEEC" />
+  <Style name="marker.usages" color="#98E998" bgColor="#36AB36" />
   <Style name="marker.bookmark.color1" color="#FFFFFF" />
   <Style name="marker.bookmark.color2" color="#729FCF" />
   <Style name="marker.underline.error" color="#990000" />
@@ -53,9 +53,9 @@
   <Style name="marker.template.primary_highlighted_template" color="#A8FBA8" bgColor="#58EB58" />
   <Style name="marker.template.secondary_template" color="#D3D7CF" bgColor="#FFFFFF" />
   <Style name="marker.template.secondary_highlighted_template" color="#BABDB6" bgColor="#EEEEEC" />
-  <Style name="bubble.warning" color="#555753" bgColor="#F3EED9" />
+  <Style name="bubble.warning" color="#555753" bgColor="#FFCC00" />
   <Style name="bubble.warning.text" color="#323232" />
-  <Style name="bubble.error" color="#555753" bgColor="#F3EAE7" />
+  <Style name="bubble.error" color="#FFFFFF" bgColor="#FF0004" />
   <Style name="bubble.error.text" color="#323232" />
   <Style name="template" color="#000000" bgColor="#FDFAED" />
   <Style name="template.tag" color="#000000" bgColor="#FDF0BD" />
