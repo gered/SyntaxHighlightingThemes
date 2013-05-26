@@ -1,20 +1,19 @@
-# Eclipse Pre-configured Theme & Syntax Coloring Settings
+# Eclipse Theme & Syntax Color Settings
 
 This is an initial Eclipse workspace configuration and plugin that apply a
-dark style UI theme and editor syntax coloring.
-
-A very slightly modified copy of the 
-[Dark Juno](http://rogerdudler.github.io/eclipse-ui-themes/) theme plugin by 
-Roger Dudler is used. Only a couple of colors have been changed.
+dark style UI theme and editor syntax coloring. A very slightly modified copy
+of the [Dark Juno](http://rogerdudler.github.io/eclipse-ui-themes/) theme 
+plugin by Roger Dudler is used. Only a couple of colors have been changed.
 
 Syntax color settings are present for Java, Clojure, Javascript, CSS, HTML 
-and XML.
-
-Language plugins used:
+and XML, using the following plugins for languages besides Java:
 
 * [Counterclockwise](https://code.google.com/p/counterclockwise/) (Clojure)
 * Eclipse Web Developer Tools (HTML, CSS, XHTML)
 * JavaScript Development Tools
+
+If some of these languages aren't going to be used, the plugins need not be
+installed. The color settings will just be ignored for those plugins.
 
 ## Usage
 
@@ -36,6 +35,7 @@ using the Dark Juno theme.
 ## Known Issues
 
 * The Dark Juno theme is unfortunately not perfect due to limitations in the CSS styling support in Eclipse. Specifically, certain SWT controls like scrollbars and table/grid headers cannot be styled and will render as per the OS's default styling.
+* Use of a CTabItem:hover CSS selector doesn't work as one would expect, and as a result, hovering over tabs makes them appear with a default white/gray background.
 * There is a somewhat annoying 2px gray/white border line at the top of some tabs / editing windows. This ***can*** be styled, but there doesn't appear to be a unique CSS class/id for it, making it difficult to style without affecting something else in the process.
 * The text on the Perspective switching toolbar is unfortunately too dark. I can't seem to style this any better ???
 * Some text on the bottom status line (e.g. the column/line indicator) doesn't seem to stick to the color style applied to it. There might be some way to get around this. ??
