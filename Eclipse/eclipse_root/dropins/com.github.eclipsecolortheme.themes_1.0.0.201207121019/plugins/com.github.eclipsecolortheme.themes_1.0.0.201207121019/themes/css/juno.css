@@ -4,6 +4,14 @@
     background-color: #444444;
 }
 
+.MTrimmedWindow Label {
+	color: #999999;
+}
+
+.MPartSashContainer Label {
+	color: #999999;
+}
+
 .MPartStack {
 	font-size: 12;
 	swt-simple: false;
@@ -27,6 +35,10 @@
 }
 
 .MTrimBar CLabel {
+	color: #999999;
+}
+
+.MTrimBar Label {
 	color: #999999;
 }
 
@@ -96,8 +108,4 @@ CTabItem {
 }
 CTabItem:selected { 
 	color: #FFF;
-}
-
-Label {
-	color: #999999;
 }
