@@ -63,6 +63,57 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.CONDITIONAL">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.FUNCTION_DEF_NAME">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.HERE_DOC_END">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.HERE_DOC_START">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.INTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.REDIRECTION">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.SUBSHELL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
@@ -90,6 +141,7 @@
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="e8bf6a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -191,6 +243,12 @@
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="4646f1" />
+      </value>
+    </option>
+    <option name="Clojure Atom">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -477,11 +535,6 @@
         <option name="FOREGROUND" value="6898ba" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-      </value>
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="629755" />
@@ -519,11 +572,6 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="6897bb" />
-      </value>
-    </option>
-    <option name="JAVA_SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -908,7 +956,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="e6e1dc" />
-        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="BACKGROUND" value="1f1f1f" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -934,6 +982,12 @@
       <value>
         <option name="EFFECT_COLOR" value="848504" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="UNMATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="VELOCITY_DIRECTIVE">
