@@ -122,6 +122,7 @@
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffc66d" />
+        <option name="BACKGROUND" value="1f1f1f" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -247,8 +248,19 @@
     </option>
     <option name="Clojure Atom">
       <value>
-        <option name="FOREGROUND" value="cc7832" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="Clojure Keyword">
+      <value>
+        <option name="FOREGROUND" value="bed6ff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Clojure Literal">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -459,6 +471,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="First symbol in list">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+      </value>
+    </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="f49810" />
@@ -502,6 +519,18 @@
         <option name="FOREGROUND" value="287bde" />
         <option name="EFFECT_COLOR" value="287bde" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Head symbol">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Head symbol from clojure.core">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -562,6 +591,7 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc7832" />
+        <option name="BACKGROUND" value="1f1f1f" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -968,8 +998,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
