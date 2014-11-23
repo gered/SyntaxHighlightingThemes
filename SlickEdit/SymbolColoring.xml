@@ -8,6 +8,44 @@
 		name="Classes and Types - RailsCasts"
 		compatibleWith="RailsCasts">
 		<Rule
+			name="Local variable"
+			regexType=""
+			classRE=""
+			nameRE=""
+			kinds="lvar"
+			attributesOn=""
+			attributesOff="static|inclass"
+			parentColor="*CFG_WINDOW_TEXT*"
+			fg="0xA000"
+			fontFlags="F_INHERIT_STYLE|F_INHERIT_FG_COLOR|F_INHERIT_BG_COLOR">
+		</Rule>
+		<Rule
+			name="Member"
+			regexType=""
+			classRE=""
+			nameRE=""
+			kinds="var"
+			attributesOn=""
+			attributesOff=""
+			parentColor="Local variable"
+			fg="0xFFAB79"
+			bg="0xFFFFFF"
+			fontFlags="F_INHERIT_BG_COLOR">
+		</Rule>
+		<Rule
+			name="Parameter"
+			regexType=""
+			classRE=""
+			nameRE=""
+			kinds="param"
+			attributesOn=""
+			attributesOff=""
+			parentColor="Local variable"
+			fg="0xFFD6BE"
+			bg="0xFFFFFF"
+			fontFlags="F_INHERIT_BG_COLOR">
+		</Rule>
+		<Rule
 			name="Class"
 			regexType=""
 			classRE=""
