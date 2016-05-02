@@ -1,9 +1,9 @@
-<scheme name="RailsCasts" version="141" parent_scheme="Default">
+<scheme name="RailsCasts" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Bitstream Vera Sans Mono" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="d6822" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -262,9 +262,6 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
-    <option name="DEFAULT_COMMA">
-      <value />
-    </option>
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="c8dd9e" />
@@ -300,9 +297,10 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="79abff" />
@@ -324,6 +322,7 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -344,12 +343,15 @@
         <option name="FOREGROUND" value="bed6ff" />
       </value>
     </option>
-    <option name="DEFAULT_SEMICOLON">
-      <value />
+    <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="c8dd9e" />
+      </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="c8dd9e" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -630,7 +632,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -656,9 +657,7 @@
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
+      <value />
     </option>
     <option name="JS.NUMBER">
       <value>
@@ -673,7 +672,6 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="a5c261" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_FUNCTION">
@@ -908,6 +906,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c8dd9e" />
